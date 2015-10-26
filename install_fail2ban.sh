@@ -27,6 +27,9 @@
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-noproxy.conf > /etc/fail2ban/filter.d/nginx-noproxy.conf
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-noscript.conf > /etc/fail2ban/filter.d/nginx-noscript.conf
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-req-limit.conf > /etc/fail2ban/filter.d/nginx-req-limit.conf
+
+sudo apt-get update
+
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/php-url-fopen.conf > /etc/fail2ban/filter.d/php-url-fopen.conf
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/postfix-sasl.conf > /etc/fail2ban/filter.d/postfix-sasl.conf
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/postfix.conf > /etc/fail2ban/filter.d/postfix.conf
