@@ -1,0 +1,1 @@
+This script use to install or update fail2ban on ubuntu 14.04 LTS
