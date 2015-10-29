@@ -81,14 +81,14 @@ echo "Install wordpress"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress.conf > /etc/fail2ban/filter.d/wordpress.conf
 
 echo "############################################################"
-echo "update action.d"
+echo "Update action.d"
 echo "############################################################"
 
 echo "Install action iptables-repeater"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/action.d/iptables-repeater.conf > /etc/fail2ban/action.d/iptables-repeater.conf
 
 echo "############################################################"
-echo "update jail.local and jail.conf"
+echo "Update jail.local and jail.conf"
 echo "############################################################"
 
 echo "Install jail.local"
