@@ -56,8 +56,8 @@ echo "Install nginx-noproxy"
 echo "Install nginx-noscript"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-noscript.conf > /etc/fail2ban/filter.d/nginx-noscript.conf
 
-echo "Install nginx-req-limit"
-\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-req-limit.conf > /etc/fail2ban/filter.d/nginx-req-limit.conf
+echo "Install nginx-limit-req"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-limit-req.conf > /etc/fail2ban/filter.d/nginx-limit-req.conf
 
 echo "Install php-url-fopen"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/php-url-fopen.conf > /etc/fail2ban/filter.d/php-url-fopen.conf
