@@ -20,6 +20,9 @@ echo "############################################################"
 echo "Install 403block"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/403block.conf > /etc/fail2ban/filter.d/403block.conf
 
+echo "Install 404block"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/404block.conf > /etc/fail2ban/filter.d/404block.conf
+
 echo "Install 404php-block"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/404php-block.conf > /etc/fail2ban/filter.d/404php-block.conf
 
@@ -43,9 +46,6 @@ echo "Install nginx-botsearch"
 
 echo "Install nginx-http-auth"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-http-auth.conf > /etc/fail2ban/filter.d/nginx-http-auth.conf
-
-echo "Install nginx-login"
-\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-login.conf > /etc/fail2ban/filter.d/nginx-login.conf
 
 echo "Install nginx-nohome"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-nohome.conf > /etc/fail2ban/filter.d/nginx-nohome.conf
