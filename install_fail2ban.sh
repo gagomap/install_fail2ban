@@ -26,8 +26,8 @@ echo "Install 404php-block"
 echo "Install antispam-bee"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/antispam-bee.conf > /etc/fail2ban/filter.d/antispam-bee.conf
 
-echo "Install apache-badbots"
-\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/apache-badbots.conf > /etc/fail2ban/filter.d/apache-badbots.conf
+echo "Install nginx-badbots"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/nginx-badbots.conf > /etc/fail2ban/filter.d/nginx-badbots.conf
 
 echo "Install block-misc"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/block-misc.conf > /etc/fail2ban/filter.d/block-misc.conf
