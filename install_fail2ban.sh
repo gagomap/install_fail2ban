@@ -87,6 +87,12 @@ echo "############################################################"
 echo "Install action iptables-repeater"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/action.d/iptables-repeater.conf > /etc/fail2ban/action.d/iptables-repeater.conf
 
+echo "Install action apf"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/action.d/apf.conf > /etc/fail2ban/action.d/apf.conf
+
+echo "Install action csf"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/action.d/csf.conf > /etc/fail2ban/action.d/csf.conf
+
 echo "############################################################"
 echo "Update jail.local and jail.conf"
 echo "############################################################"
