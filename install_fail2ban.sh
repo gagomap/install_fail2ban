@@ -23,9 +23,6 @@ echo "Install 403block"
 echo "Install 404block"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/404block.conf > /etc/fail2ban/filter.d/404block.conf
 
-echo "Install 404php-block"
-\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/404php-block.conf > /etc/fail2ban/filter.d/404php-block.conf
-
 echo "Install antispam-bee"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/antispam-bee.conf > /etc/fail2ban/filter.d/antispam-bee.conf
 
