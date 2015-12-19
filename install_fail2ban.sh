@@ -77,7 +77,7 @@ echo "Install wordpress-userenum"
 echo "Install wordpress"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress.conf > /etc/fail2ban/filter.d/wordpress.conf
 
-echo "Install wordpress"
+echo "Install mysqld-auth"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/mysqld-auth.conf > /etc/fail2ban/filter.d/mysqld-auth.conf
 
 echo "############################################################"
