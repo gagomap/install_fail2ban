@@ -74,8 +74,11 @@ echo "Install sshd"
 echo "Install wordpress-userenum"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress-userenum.conf > /etc/fail2ban/filter.d/wordpress-userenum.conf
 
-echo "Install wordpress"
-\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress.conf > /etc/fail2ban/filter.d/wordpress.conf
+echo "Install wordpress-soft"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress-soft.conf > /etc/fail2ban/filter.d/wordpress-soft.conf
+
+echo "Install wordpress-hard"
+\curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/wordpress-hard.conf > /etc/fail2ban/filter.d/wordpress-hard.conf
 
 echo "Install mysqld-auth"
 \curl -sSL https://raw.githubusercontent.com/gagomap/fail2ban_settings/master/fail2ban/filter.d/mysqld-auth.conf > /etc/fail2ban/filter.d/mysqld-auth.conf
